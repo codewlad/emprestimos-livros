@@ -25,7 +25,7 @@ namespace EmprestimosLivros.API.Repositories
 
         public void Incluir(Cliente cliente)
         {
-            _context.Clientes.Add(cliente)
+            _context.Clientes.Add(cliente);
         }
 
         public async Task<bool> SaveAllAsync()
