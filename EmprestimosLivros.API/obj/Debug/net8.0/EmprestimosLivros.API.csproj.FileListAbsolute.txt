@@ -136,3 +136,5 @@ C:\Users\WladimirFerreira\source\repos\EmprestimosLivros\EmprestimosLivros.API\o
 C:\Users\WladimirFerreira\source\repos\EmprestimosLivros\EmprestimosLivros.API\obj\Debug\net8.0\ref\EmprestimosLivros.API.dll
 C:\Users\WladimirFerreira\source\repos\EmprestimosLivros\EmprestimosLivros.API\bin\Debug\net8.0\efpt.config.json
 C:\Users\WladimirFerreira\source\repos\EmprestimosLivros\EmprestimosLivros.API\obj\Debug\net8.0\EmprestimosLivros.API.sourcelink.json
+C:\Users\WladimirFerreira\source\repos\EmprestimosLivros\EmprestimosLivros.API\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\WladimirFerreira\source\repos\EmprestimosLivros\EmprestimosLivros.API\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

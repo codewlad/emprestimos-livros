@@ -25,7 +25,7 @@ public partial class ControleEmprestimoLivroContext : DbContext
         {
             entity.HasKey(e => e.Id).HasName("PK__Cliente__3213E83F1A147619");
 
-            entity.Property(e => e.Id).ValueGeneratedNever();
+            entity.Property(e => e.Id).ValueGeneratedOnAdd();
             entity.Property(e => e.CliNumero).IsFixedLength();
             entity.Property(e => e.CliTelefoneCelular).IsFixedLength();
             entity.Property(e => e.CliTelefoneFixo).IsFixedLength();
@@ -35,14 +35,14 @@ public partial class ControleEmprestimoLivroContext : DbContext
         {
             entity.HasKey(e => e.Id).HasName("PK__Livro__3213E83F5B89C2D9");
 
-            entity.Property(e => e.Id).ValueGeneratedNever();
+            entity.Property(e => e.Id).ValueGeneratedOnAdd();
         });
 
         modelBuilder.Entity<LivroClienteEmprestimo>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__Livro_Cl__3213E83F5F2D81EF");
 
-            entity.Property(e => e.Id).ValueGeneratedNever();
+            entity.Property(e => e.Id).ValueGeneratedOnAdd();
 
             entity.HasOne(d => d.LceIdClienteNavigation).WithMany(p => p.LivroClienteEmprestimos)
                 .OnDelete(DeleteBehavior.ClientSetNull)

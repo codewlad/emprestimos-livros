@@ -35,7 +35,7 @@ namespace EmprestimosLivros.API.Repositories
 
         public async Task<Cliente> SelecionarByPk(int id)
         {
-            return await _context.Clientes.Where(x => x.Id ==  id).FirstOrDefaultAsync();
+            return await _context.Clientes.Where(x => x.Id == id).FirstOrDefaultAsync();
         }
 
         public async Task<IEnumerable<Cliente>> SelecionarTodos()
