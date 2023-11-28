@@ -14,7 +14,7 @@ namespace EmprestimosLivros.API.DTOs
         public int Id { get; set; }
 
         [Required]
-        [StringLength(14)]
+        [StringLength(11)]
         [MinLength(14, ErrorMessage = "O CPF deve ter, no mínimo, 14 caracteres.")]
         [Unicode(false)]
         public string CliCpf { get; set; }
